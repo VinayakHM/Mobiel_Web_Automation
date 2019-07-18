@@ -39,8 +39,9 @@ public class Service {
 		cap.setCapability("noReset", "false");
 
 		builder = new AppiumServiceBuilder();
-		builder.usingPort(4723);
 		builder.withIPAddress("127.0.0.1");
+		builder.usingPort(4723);
+		builder.withCapabilities(cap);
 		builder.withArgument(GeneralServerFlag.SESSION_OVERRIDE);
 		builder.withArgument(GeneralServerFlag.LOG_LEVEL, "error");
 
@@ -74,5 +75,13 @@ public class Service {
 
 		Service serv = new Service();
 		int port = 4723;
+		if (!serv.checkIfServerIsRunning(port)) {
+			System.out.println("**********");
+			serv.startServer();
+			System.out.println("**********");
+			serv.stopServer();
+		} else {
+			System.out.println("Appium is already Running into the Posrt : " + port);
+		}
 	}
 }
