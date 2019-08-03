@@ -1,1 +1,8 @@
-/home/vinayak/workspace/WebApplication/src/test/java/test/login/LoginTestCase.java
+/home/vinayak/workspace/Mobile_Web_Automation/src/test/java/test/signUp/SignUpTestCase.java
+/home/vinayak/workspace/Mobile_Web_Automation/src/test/java/UIOperatonExm/AlertAndPopup.java
+/home/vinayak/workspace/Mobile_Web_Automation/src/test/java/UIOperatonExm/windowHandle.java
+/home/vinayak/workspace/Mobile_Web_Automation/src/test/java/test/login/LoginTestCase.java
+/home/vinayak/workspace/Mobile_Web_Automation/src/test/java/test/login/loginConfig.java
+/home/vinayak/workspace/Mobile_Web_Automation/src/test/java/ParallelExecution/parallelTest.java
+/home/vinayak/workspace/Mobile_Web_Automation/src/test/java/test/signUp/signUpConfig.java
+/home/vinayak/workspace/Mobile_Web_Automation/src/test/java/UIOperatonExm/excelReader.java

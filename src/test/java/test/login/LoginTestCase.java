@@ -1,10 +1,14 @@
 package test.login;
 
 import java.io.IOException;
+
+import org.testng.annotations.Test;
+
 import com.WebApp.Automation.Pages.login;
 
 public class LoginTestCase extends loginConfig{
 	
+	@Test
 	public void validLogin() throws IOException{
 		openUrl();
 		login l = new login();
@@ -22,10 +26,10 @@ public class LoginTestCase extends loginConfig{
 		l.clickLogin();
 		close();
 	}
-	public static void main(String[] args) throws IOException{
+	/*public static void main(String[] args) throws IOException{
 		LoginTestCase test1 = new LoginTestCase();
 		test1.validLogin();
 		test1.invalidLogin();
-	}
+	}*/
 
 }

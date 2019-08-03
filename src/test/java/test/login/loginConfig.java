@@ -15,7 +15,7 @@ public class loginConfig extends Base{
 	public void openUrl() throws IOException {
 		File f = new File(prop);
 		loginP = new Properties();
-		FileInputStream input = new FileInputStream(prop);
+		FileInputStream input = new FileInputStream(f);
 		loginP.load(input);
 		
 		driverInstance(loginP.getProperty("browser"));
