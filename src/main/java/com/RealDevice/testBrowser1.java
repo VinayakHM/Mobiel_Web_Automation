@@ -8,7 +8,7 @@ import org.openqa.selenium.By;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 
-public class testBrowser1 extends realDeviceBrowser {
+public class testBrowser1 extends realDeviceBrowserBase {
 
 	public static void main(String[] args) throws MalformedURLException {
 		AndroidDriver<AndroidElement> driver = capabilities();

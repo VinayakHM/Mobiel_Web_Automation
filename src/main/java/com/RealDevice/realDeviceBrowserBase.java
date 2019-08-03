@@ -9,7 +9,7 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.MobileCapabilityType;
 
-public class realDeviceBrowser {
+public class realDeviceBrowserBase {
 	public static AndroidDriver<AndroidElement> capabilities() throws MalformedURLException {
 
 		DesiredCapabilities cap = new DesiredCapabilities();
